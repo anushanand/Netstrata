@@ -16,12 +16,12 @@ Maven 3.3.9
 
 ## Running the tests in serial mode.
 1. Open the TestNG.xml file.
-2. Update the value for parallel to 'none' in the line  "<suite name="TestSuite" thread-count="2" parallel="***" >".
+2. Update the value for parallel to 'none' in the line 'suite name="TestSuite" thread-count="2" parallel="***"'.
 3. Run the TestNG.xml file.
 
 ## Running the tests in parallel mode.
 1. Open the TestNG.xml file.
-2. Update the value for parallel to 'tests' in the line  "<suite name="TestSuite" thread-count="2" parallel="***" >".
+2. Update the value for parallel to 'tests' in the line 'suite name="TestSuite" thread-count="2" parallel="***"'.
 3. Run the TestNG.xml file.
 
 ## Reporting
