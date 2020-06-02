@@ -24,6 +24,6 @@ Maven 3.3.9
 2. Update the value for parallel to 'tests' in the line  "<suite name="TestSuite" thread-count="2" parallel="***" >".
 3. Run the TestNG.xml file.
 
-##Reporting
+## Reporting
 After the run is complete, reports will be generated under a test-output folder.
 Open the emailable-report.html in a browser of your choice to view the report (path: /netstrata/test-output/emailable-report.html)

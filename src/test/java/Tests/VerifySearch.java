@@ -21,12 +21,16 @@ public class VerifySearch {
     @BeforeTest
     @Parameters("browser")
     public void setup(String browser) throws Exception {
+        //Setting up driver for firefox tests
         if(browser.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver","/Users/anushaanand/IdeaProjects/netstrata/geckodriver");
+            //Update path to gecko driver here
+            System.setProperty("webdriver.gecko.driver","/path/to/geckodriver");
             driver = new FirefoxDriver();
         }
+        //Setting up driver for Chrome Tests
         else if(browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver","/Users/anushaanand/IdeaProjects/netstrata/chromedriver");
+            //Update path to chrome driver here
+            System.setProperty("webdriver.chrome.driver","/path/to/chromedriver");
             driver = new ChromeDriver();
         }
         else {
@@ -42,6 +46,7 @@ public class VerifySearch {
         homeActions = new HomeActions(driver);
         searchResultActions = new SearchResultActions(driver);
 
+        //Select the first suggestion when "str" is entered in the search field, then verify that the correct results are displayed
         selectedSuburb = homeActions.selectSuburb();
         Assert.assertTrue(searchResultActions.getHeaderText().contains(selectedSuburb));
     }
