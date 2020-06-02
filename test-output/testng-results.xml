@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-02T06:12:50Z" name="TestSuite" finished-at="2020-06-02T06:13:22Z" duration-ms="31875">
+  <suite started-at="2020-06-02T07:16:38Z" name="TestSuite" finished-at="2020-06-02T07:17:02Z" duration-ms="24376">
     <groups>
     </groups>
-    <test started-at="2020-06-02T06:12:50Z" name="ChromeTest" finished-at="2020-06-02T06:13:01Z" duration-ms="10981">
+    <test started-at="2020-06-02T07:16:38Z" name="ChromeTest" finished-at="2020-06-02T07:16:55Z" duration-ms="17352">
       <class name="Tests.VerifySearch">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.VerifySearch@17579e0f]" started-at="2020-06-02T16:12:50Z" name="setup" finished-at="2020-06-02T16:12:57Z" duration-ms="6845" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.VerifySearch@1563da5]" started-at="2020-06-02T17:16:38Z" name="setup" finished-at="2020-06-02T17:16:47Z" duration-ms="8951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySearchSteps()[pri:0, instance:Tests.VerifySearch@17579e0f]" started-at="2020-06-02T16:12:57Z" name="verifySearchSteps" finished-at="2020-06-02T16:13:01Z" duration-ms="3942" status="PASS">
+        <test-method signature="verifySearchSteps()[pri:0, instance:Tests.VerifySearch@1563da5]" started-at="2020-06-02T17:16:47Z" name="verifySearchSteps" finished-at="2020-06-02T17:16:55Z" duration-ms="8185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchSteps -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.VerifySearch@17579e0f]" started-at="2020-06-02T16:13:01Z" name="teardown" finished-at="2020-06-02T16:13:01Z" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.VerifySearch@1563da5]" started-at="2020-06-02T17:16:55Z" name="teardown" finished-at="2020-06-02T17:16:55Z" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Tests.VerifySearch -->
     </test> <!-- ChromeTest -->
-    <test started-at="2020-06-02T06:13:01Z" name="FirefoxTest" finished-at="2020-06-02T06:13:22Z" duration-ms="20816">
+    <test started-at="2020-06-02T07:16:38Z" name="FirefoxTest" finished-at="2020-06-02T07:17:02Z" duration-ms="24376">
       <class name="Tests.VerifySearch">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.VerifySearch@7a765367]" started-at="2020-06-02T16:13:01Z" name="setup" finished-at="2020-06-02T16:13:08Z" duration-ms="7263" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.VerifySearch@c46bcd4]" started-at="2020-06-02T17:16:38Z" name="setup" finished-at="2020-06-02T17:16:48Z" duration-ms="10428" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySearchSteps()[pri:0, instance:Tests.VerifySearch@7a765367]" started-at="2020-06-02T16:13:08Z" name="verifySearchSteps" finished-at="2020-06-02T16:13:15Z" duration-ms="6418" status="PASS">
+        <test-method signature="verifySearchSteps()[pri:0, instance:Tests.VerifySearch@c46bcd4]" started-at="2020-06-02T17:16:48Z" name="verifySearchSteps" finished-at="2020-06-02T17:16:57Z" duration-ms="8812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchSteps -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.VerifySearch@7a765367]" started-at="2020-06-02T16:13:15Z" name="teardown" finished-at="2020-06-02T16:13:22Z" duration-ms="7132" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.VerifySearch@c46bcd4]" started-at="2020-06-02T17:16:57Z" name="teardown" finished-at="2020-06-02T17:17:02Z" duration-ms="5128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -17,6 +17,7 @@ public class VerifySearch {
     SearchResultActions searchResultActions;
     WebDriver driver;
     String selectedSuburb;
+    String testURL = "https://www.domain.com.au/";
 
     @BeforeTest
     @Parameters("browser")
@@ -38,7 +39,7 @@ public class VerifySearch {
         }
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get("https://www.domain.com.au/");
+        driver.get(testURL);
     }
 
     @Test
@@ -48,7 +49,7 @@ public class VerifySearch {
 
         //Select the first suggestion when "str" is entered in the search field, then verify that the correct results are displayed
         selectedSuburb = homeActions.selectSuburb();
-        Assert.assertTrue(searchResultActions.getHeaderText().contains(selectedSuburb));
+        searchResultActions.verifySuburb(selectedSuburb);
     }
 
     @AfterTest
