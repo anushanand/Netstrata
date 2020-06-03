@@ -25,13 +25,13 @@ public class VerifySearch {
         //Setting up driver for firefox tests
         if(browser.equalsIgnoreCase("firefox")) {
             //Update path to gecko driver here
-            System.setProperty("webdriver.gecko.driver","/Users/anushaanand/Documents/netstrata/geckodriver");
+            System.setProperty("webdriver.gecko.driver","/path/to/geckodriver");
             driver = new FirefoxDriver();
         }
         //Setting up driver for Chrome Tests
         else if(browser.equalsIgnoreCase("chrome")) {
             //Update path to chrome driver here
-            System.setProperty("webdriver.chrome.driver","/Users/anushaanand/Documents/netstrata/chromedriver");
+            System.setProperty("webdriver.chrome.driver","/path/to/chromedriver");
             driver = new ChromeDriver();
         }
         else {
